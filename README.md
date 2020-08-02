@@ -27,3 +27,9 @@ Enter the following content into the editor (Skip the initial comments if alread
 00 00 * * * /path/to/script/mongobackup.sh
 #backup starts at midnight everyday
 ```
+
+### Tips
+
+- [Use `crontab.guru` ](https://crontab.guru/) to check if a schedule behaves as expected
+
+- Recommended solution, if mongo instance is inside a container, and the backup directory is in a mapped volume (set intervals to be more tighter).
